@@ -1,0 +1,110 @@
+.panel.blog > .face {
+    height: 100%;
+    position: absolute;
+    left: -10%;
+    display:none;
+}
+
+@media (min-width:768px){
+    .panel.blog > .face {
+        display:block;
+    }
+}
+
+.panel.blog > .face > img {
+    position:absolute;
+    bottom:0;
+}
+
+.panel.blog > .blob {
+    background-color: #000;
+    border-radius: 7px;
+    border: 3px solid #000;
+    position: relative;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:95px;
+    font-size:1.2em;
+}
+
+    @media (min-width:768px){
+        .panel.blog > .blob {
+            margin-top:initial;
+            position:absolute;
+            width: 40%;
+            right: 2%;
+            bottom: 10%;
+            font-size: 1.3em;
+        }
+    }
+
+    @media (min-width:992px){
+        .panel.blog > .blob {
+            width: 50%;
+            left: 35%;
+            bottom: 20%;
+            font-size:1.5em;
+        }
+    }
+
+    @media (min-width:1200px){
+        .panel.blog > .blob {
+            width: 60%;
+            left: 30%;
+            font-size: 1.7em;
+        }
+    }
+
+.panel.blog > .blob > h1, .panel.blog > .blob > h2, .panel.blog > .blob > p {
+    color:#fff
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #000;
+    position: absolute;
+    left: 32px;
+    bottom: -15px;
+
+}
+
+    @media(min-width:768px) {
+        .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-right: 20px solid #000;
+            position: absolute;
+            left: -32px;
+            bottom: 40px;
+        }
+    }
+    @media(min-width:992px){
+        .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent;
+            border-right: 25px solid #000;
+            position: absolute;
+        }
+    }
+
+
+    @media(min-width:1200px){
+        .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 30px solid transparent;
+            border-bottom: 30px solid transparent;
+            border-right: 30px solid #000;
+            position: absolute;
+        }
+    }
+
